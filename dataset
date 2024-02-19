@@ -1,3 +1,48 @@
+https://ourairports.com/data/
+Fifteen years ago, there were only a few skills a software developer would need to know well, and he or she would have a decent shot at 95% of the listed job positions. Those skills were:
+
+Object-oriented programming.
+Scripting languages.
+JavaScript, and…
+SQL.
+SQL was a go-to tool when you needed to get a quick-and-dirty look at some data, and draw preliminary conclusions that might, eventually, lead to a report or an application being written. This is called exploratory analysis.
+
+These days, data comes in many shapes and forms, and it’s not synonymous with “relational database” anymore. You may end up with CSV files, plain text, Parquet, HDF5, and who knows what else. This is where Pandas library shines.
+
+What is Pandas?
+Python Data Analysis Library, called Pandas, is a Python library built for data analysis and manipulation. It’s open-source and supported by Anaconda. It is particularly well suited for structured (tabular) data. For more information, see http://pandas.pydata.org/pandas-docs/stable/index.html.
+
+What can I do with it?
+All the queries that you were putting to the data before in SQL, and so many more things!
+
+Great! Where do I start?
+This is the part that can be intimidating for someone used to expressing data questions in SQL terms.
+
+SQL is a declarative programming language: https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Declarative_languages.
+
+With SQL, you declare what you want in a sentence that almost reads like English.
+
+Pandas’ syntax is quite different from SQL. In Pandas, you apply operations on the dataset, and chain them, in order to transform and reshape the data the way you want it.
+
+We’re going to need a phrasebook!
+
+The anatomy of a SQL query
+A SQL query consists of a few important keywords. Between those keywords, you add the specifics of what data, exactly, you want to see. Here is a skeleton query without the specifics:
+
+SELECT… FROM… WHERE…
+
+GROUP BY… HAVING…
+
+ORDER BY…
+
+LIMIT… OFFSET…
+
+There are other terms, but these are the most important ones. So how do we translate these terms into Pandas?
+
+First we need to load some data into Pandas, since it’s not already in database. Here is how:
+
+
+
 Open data downloads
 Data should be open and sharable.
 
